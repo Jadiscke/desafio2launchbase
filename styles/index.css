@@ -109,6 +109,14 @@ header a~a,footer a~a {
   text-align: center;
 
   cursor: pointer;
+
+  transition: ease-in-out 400ms;
+}
+.cards .card:hover {
+  width: 270px;
+  height: 330px;
+
+  transition: ease-in-out 400ms;
 }
 
 .cards .card img {
@@ -129,8 +137,6 @@ header a~a,footer a~a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
-  border-top: 1px solid darkslateblue;
   padding-top: 18px;
 
   position: absolute;
