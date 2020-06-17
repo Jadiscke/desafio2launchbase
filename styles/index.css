@@ -42,7 +42,7 @@ header a~a,footer a~a {
   margin-left: 30px;
 }
 
-/* sobre */
+/* About */
 #about {
   text-align: center;
 }
@@ -66,4 +66,51 @@ header a~a,footer a~a {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
   list-style: none;
+}
+
+/* Content */
+
+#content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: space-around;
+
+
+  width: 100%;
+  padding: 7% 15%;
+
+}
+#content * {
+  flex: 1;
+}
+#content h1 {
+  font-size: 48px;
+  line-height: 58px;
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.cards .card {
+  position: relative;
+  border-radius: 8px;
+  height: 300px;
+  width: 250px;
+  box-shadow: 0 5px 10px darkslateblue;
+
+  text-align: center;
+}
+
+.cards .card .card-content {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
 }
