@@ -98,6 +98,7 @@ header a~a,footer a~a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
+  height: 350px;
 }
 
 .cards .card {
@@ -186,10 +187,15 @@ header a~a,footer a~a {
 
 .modal .icons {
   position: absolute;
+  z-index: 100;
   top: 10px;
   right: 5%;
   text-align: right;
   color: aliceblue;
+}
+
+.modal .icons span {
+  cursor: pointer;
 }
 
 .modal .modal-content{
@@ -205,4 +211,15 @@ header a~a,footer a~a {
 .modal .modal-content iframe {
   width: 100%;
   height: 100%;
+}
+
+
+.modal .modal-content.maximize {
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal .modal-content.maximize~.icons{
+  right: 25px;
 }

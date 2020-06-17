@@ -21,7 +21,7 @@
   <main id="content">
     <h1>Conteúdo</h1>
     <div class="cards">
-      <div class="card">
+      <div class="card" id="starter">
         <img src="https://skylab.rocketseat.com.br/static/media/Starter.64c237cc.svg" alt="" class="card-mg">
         <div class="card-content">
           <h3>Starter</h3>
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" id="launchbase">
         <img src="https://rocketseat.com.br/static/images/launchbase/launchbase.svg" alt="" class="card-img">
         <div class="card-content">
           <h3>LaunchBase</h3>
@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" id="gostack">
         <img src="https://rocketseat.com.br/static/images/bootcamp/logo-gostack.svg" alt="" class="card-img">
         <div class="card-content">
           <h3>GoStack</h3>
@@ -58,16 +58,18 @@
   </footer>
 
 
-  <div class="modal active">
-    <div class="icons">
-      <span class="material-icons">open_in_full</span>
-      <span class="material-icons">close</span>
-    </div>
+  <div class="modal">
+
     <div class="modal-content">
-      <iframe src="https://rocketseat.com.br/launchbase" frameborder="0">
+      <iframe src="" frameborder="0">
       </iframe>
     </div>
-    
+    <div class="icons">
+      <span class="material-icons"id="maximize">open_in_full</span>
+      <span class="material-icons" id="close">close</span>
+    </div>    
   </div>
+
+  <script src="scripts/modal.js"></script>
 </body>
 </html>
