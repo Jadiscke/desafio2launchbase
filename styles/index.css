@@ -118,7 +118,7 @@ header a~a,footer a~a {
   justify-content: space-between;
 
   border-top: 1px solid darkslateblue;
-
+  padding-top: 18px;
 
   position: absolute;
   bottom: 15px;
@@ -126,9 +126,18 @@ header a~a,footer a~a {
   height: 30%;
 }
 
+.cards.card .card-content h3 {
+  font-size: 18px;
+}
+
 .cards .card .card-content .card-info {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  font-size: 14px;
+}
+
+.cards .card .card-content .card-info .card-price {
+  font-weight: bold;
 }
