@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+:root {
+  --color-purple: rgb(110, 75, 190);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +14,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: rebeccapurple;
+  background: var(--color-purple);
+  color: aliceblue;
 }
 
 header {
@@ -35,4 +40,25 @@ header a:hover {
 header a~a {
   margin-left: 30px;
 }
+main {
+  text-align: center;
+}
+main img {
+  max-width: 300px;
+}
 
+main h2 {
+  font-size: 28px;
+  line-height: 38px;
+  max-width: 400px;
+  margin: 38px auto 76px;
+}
+main ul{
+  max-width: 400px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  list-style: none;
+}
