@@ -18,33 +18,36 @@ body {
   color: aliceblue;
 }
 
-header {
+header,footer {
+
   width: 100%;
   padding: 30px;
   text-align: center;
+  max-height: 80px;
 }
 
-header a {
+ a {
+
   font-size: 14px;
-  line-height: 24px;
-  color: aliceblue;
-  transition: ease-in-out 400ms;
-}
-
-header a:hover {
-  transition: ease-in-out 400ms;
-  font-size: 18px;
   line-height: 28px;
+  color: aliceblue;
+  transition: 400ms;
+}
+ a:hover {
+  transition: 400ms;
+  font-size: 18px;
 }
 
-header a~a {
+header a~a,footer a~a {
   margin-left: 30px;
 }
 main {
   text-align: center;
 }
 main img {
-  max-width: 300px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
 }
 
 main h2 {
@@ -55,10 +58,11 @@ main h2 {
 }
 main ul{
   max-width: 400px;
-  margin: auto;
+  margin:0 auto 76px;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
   list-style: none;
+
 }
