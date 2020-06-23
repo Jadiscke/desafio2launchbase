@@ -1,0 +1,27 @@
+{
+  "name": "desafio2launchbase",
+  "version": "1.0.0",
+  "description": "links: - https://github.com/Rocketseat/bootcamp-launchbase-desafios-02 - https://github.com/Rocketseat/bootcamp-launchbase-desafios-03",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jadiscke/desafio2launchbase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jadiscke/desafio2launchbase/issues"
+  },
+  "homepage": "https://github.com/Jadiscke/desafio2launchbase#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
